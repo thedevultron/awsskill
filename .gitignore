@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+emulator.log
+
+# Logs
+*.log
+
+# Environment files (keep the example)
+.env
+.env.local
+.env.*
+!.env.example
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build artifacts / deploy bundles
+aws-advisor-site-deploy.zip
